@@ -1,0 +1,12 @@
+   .container { max-width: 800px; margin: 0 auto; padding: 20px; font-family: sans-serif; }
+   .input-form { display: flex; gap: 10px; margin-bottom: 20px; }
+   .input-form input { flex: 1; padding: 10px; font-size: 16px; }
+   .input-form button { padding: 10px 20px; background: #007bff; color: white; border: none; cursor: pointer; }
+   .input-form button:disabled { background: #ccc; }
+   .question-card { background: #f9f9f9; padding: 15px; margin-bottom: 15px; border-radius: 8px; border: 1px solid #ddd; }
+   .question-card ul { list-style-type: none; padding: 0; }
+   .question-card li { padding: 5px 0; }
+   .correct { color: green; font-weight: bold; }
+   .error { color: red; }
+   .history { margin-top: 40px; border-top: 1px solid #ddd; padding-top: 20px; }
+   .history li { margin-bottom: 8px; color: #007bff; }
